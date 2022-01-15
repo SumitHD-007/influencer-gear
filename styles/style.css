@@ -1,0 +1,115 @@
+/* fonts  */
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+/* correcting margin */
+.sort-margin{
+    margin-left: 50px;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+/* p */
+.paragraph-edt{
+    width: 80%;
+}
+/* for first image */
+.image-edt{
+    width: 150%;
+    border-radius: 10px;
+    padding-left: 15%;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    transform: rotate(360deg);
+}
+.image-edt:hover{
+    transform: scale(1) rotate(30deg);
+    transition: transform 2s ease-in-out;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 7px 30px;
+    color: white;
+    font-weight: 900;
+    border: 2px solid teal;
+    border-radius: 8px;
+}
+/* Text in the middle */
+.text-center{
+    margin: 100;
+    width: 600%;
+    text-align: center;
+}
+.illustrate-edit{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 20px 30px gray;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+}
+.illustrate-edit:hover{
+    transform: scale(1.2) ;
+    transition: transform 2s ease-in-out;
+}
+.illustrate-edit img{
+    margin-top: 50px;
+}
+.fa-star.filled{
+    color: orangered;
+}
+.fa-star-half-alt.filled{
+    color: orangered;
+}
+/* built another container  */
+.container1{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 20px;
+    
+}
+.sorting{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2px;
+}
+.button-style{
+    margin-left: 90%;
+    text-decoration: none;
+    color: purple;
+}
+.New-feature img{
+    margin-left: 20%;
+    width: 50%;
+}
+.imgs-edit:hover{
+    transform: scale(1.2) ;
+    transition: transform 2s ease-in-out;
+
+}
+.New-feature1{
+    width:500px;
+    margin-right: 20%;
+}
+footer{
+    margin: 0%;
+    padding: 3px;
+    text-align: center;
+    padding: -20px;
+    color: white;
+    background-color: navy;
+    border: 2px solid navy;
+    display: block;
+}
