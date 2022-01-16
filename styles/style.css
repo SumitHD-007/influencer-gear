@@ -248,11 +248,11 @@ main{
         display: grid;
        grid-template-columns: repeat(2,1fr);
     }
-    /* .illustrate-edit{
+    .illustrate-edit{
         width: 200%;
         padding-left: 10px;
-        margin-left: 10px;
-    } */
+        margin-left: 20px;
+    }
     .illustrate-edit img{
         width: 80%;
         margin-left: 5%;
