@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif;
 /* correcting margin */
 .sort-margin{
     margin-left: 50px;
+    font-weight: 900;
 }
 .container{
     margin-top: 30px;
@@ -34,7 +35,7 @@ font-family: 'Roboto', sans-serif;
 .button-link{
     text-decoration: none;
     background-image: linear-gradient(tomato, orange);
-    padding: 7px 30px;
+    padding: 7px 7px;
     color: white;
     font-weight: 900;
     border: 2px solid teal;
@@ -86,9 +87,10 @@ font-family: 'Roboto', sans-serif;
     grid-column-gap: 2px;
 }
 .button-style{
-    margin-left: 90%;
     text-decoration: none;
+    margin-left: 90%;
     color: purple;
+    font-weight: 900;
 }
 .New-feature img{
     margin-left: 20%;
@@ -103,12 +105,98 @@ font-family: 'Roboto', sans-serif;
     width:500px;
     margin-right: 20%;
 }
+.button-style1{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 7px 7px;
+    color: white;
+    font-weight: 900;
+    border: 2px solid teal;
+    border-radius: 8px;
+}
 footer{
-    margin: 0;
-    padding: -3px;
+    display: block;
+    width: 100%;
+    height: 100%;
     text-align: center;
     color: white;
     background-color: navy;
     border: 2px solid navy;
-    display: block;
+}
+.container2{
+    padding: 3px;
+    padding-bottom: 10px;
+}
+main{
+    overflow-x: hidden;
+}
+.button-style1{
+    text-decoration: none;
+    color: #562EFF;
+}
+@media only screen and (max-width: 688px) {
+    .sort-margin{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .section-title{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .section-title1{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .container{
+        flex-wrap:wrap ;
+        width: 100%;
+    }
+    .paragraph-edt{
+        width: 50%;
+        margin-left: 20%;
+    }
+    .influencer, .image-edt, .sorting{
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .illustrate-edit img{
+        margin-left: 15%;
+        width: 60%;
+    }
+    .image-edt img{
+        width: 250px;
+    }
+    .button-link{
+        width: 40%;
+        margin-left: 20%;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 2px;
+        border: 2px solid teal;
+        border-radius: 2px;
+    }
+    .text-center{
+        width: 150%;
+        text-align: center;
+    }
+    .button-style{
+        width: 150%;
+        margin-left: 70%;
+        text-align: center;
+    }
+    .imgs-edt{
+        display: none;
+    }
+    .button-style1{
+        width: 40%;
+        margin-left: 30%;
+    }
+    footer{
+        margin-top: 10%;
+    }
+    
+
 }
