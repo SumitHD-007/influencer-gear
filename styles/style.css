@@ -257,6 +257,11 @@ main{
         width: 80%;
         margin-left: 5%;
     }
+    .button-style{
+        width: 150%;
+        margin-left: 70%;
+        text-align: center;
+    }
     .New-feature1{
         margin-bottom: 40px;
     }
